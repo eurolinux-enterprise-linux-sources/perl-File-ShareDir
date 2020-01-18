@@ -1,6 +1,6 @@
 Name:           perl-File-ShareDir
 Version:        1.03
-Release:        8%{?dist}
+Release:        7%{?dist}
 Summary:        Locate per-dist and per-module shared files
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -52,9 +52,6 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.03-8
-- Mass rebuild 2013-12-27
-
 * Tue Oct 23 2012 Petr Šabata <contyk@redhat.com> - 1.03-7
 - Modernize specfile
 - Specify all dependencies
